@@ -1,0 +1,21 @@
+# Minecraft server runtime artifacts
+plugins/.paper-remapped/
+plugins/spark/tmp-client/
+logs/
+*.log
+*.pid
+crash-reports/
+world/
+world_nether/
+world_the_end/
+banned-players.json
+whitelist.json
+ops.json
+usercache.json
+versions/
+cache/
+*.tmp
+
+# Keep server config tracked
+!server.properties
+!eula.txt
